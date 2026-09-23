@@ -1,0 +1,11 @@
+# Never commit real Dotnet Report tokens or connection strings
+appsettings.json
+appsettings.*.json
+!appsettings.sample.json
+secrets.json
+
+# Build output
+bin/
+obj/
+*.user
+.vs/
